@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Gautam Kumar — Software Developer</title>
+  <link rel="icon" type="image/x-icon" href="/gautam_portrait_600kb.jpg" />
+  <meta
+    name="description"
+    content="Portfolio of Gautam Kumar, B.Tech CSE student and aspiring software developer."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+
+  <!-- 3D BACKGROUND -->
+  <canvas id="scene"></canvas>
+  <div class="grid-floor"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="nav-inner">
+
+      <a href="#home" class="brand">
+        <span class="brand-dot"></span>
+        Gautam
+        <span class="mono">.dev</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#achievements">achievements</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+
+    <div class="wrap hero-grid">
+
+      <div class="reveal">
+
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          open to internships & SDE roles
+        </div>
+
+        <h1>
+          Hi, I'm
+          <br>
+          <span class="gradient-text">
+            Gautam Kumar
+          </span>
+        </h1>
+
+        <p class="hero-role">
+          B.Tech CSE Student · Software Developer · Programmer
+        </p>
+
+        <p class="hero-desc">
+          Building skills, solving problems, and creating impactful
+          software through code, creativity and continuous learning.
+        </p>
+
+        <div class="buttons">
+          <a href="#projects" class="btn btn-primary">
+            View My Projects →
+          </a>
+
+          <a href="#contact" class="btn btn-outline">
+            Contact Me
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- 3D PROFILE -->
+      <div class="profile-scene reveal">
+
+        <div class="profile-card" id="profileCard">
+
+          <!-- Put your image as profile.jpg -->
+          <img
+            src="/gautam_portrait_600kb.jpg"
+            alt="Gautam Kumar"
+            class="profile-photo"
+            onerror="this.src='https://ui-avatars.com/api/?name=Gautam+Kumar&background=0b1120&color=5eead4&size=400'"
+          >
+
+          <div class="profile-info">
+            <h2>Gautam Kumar</h2>
+            <p>B.Tech CSE · Developer</p>
+          </div>
+
+        </div>
+
+        <div class="floating f1">
+          &lt;/&gt; coding
+        </div>
+
+        <div class="floating f2">
+          React.js
+        </div>
+
+        <div class="floating f3">
+          C++ • Python
+        </div>
+
+        <div class="floating f4">
+          &lt; /&gt; AI + Web
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <div class="wrap">
+
+      <div class="path reveal">about</div>
+
+      <h2 class="section-title reveal">
+        A closer look
+      </h2>
+
+      <p class="section-lede reveal">
+        Who I am, what drives me, and what I'm building toward.
+      </p>
+
+
+      <div class="about-grid">
+
+        <div class="about-card glass reveal">
+
+          <div class="avatar-box">
+            <span>GK</span>
+          </div>
+
+          <div class="meta">
+
+            <div class="meta-row">
+              <span>name</span>
+              <span>Gautam Kumar</span>
+            </div>
+
+            <div class="meta-row">
+              <span>role</span>
+              <span>Aspiring SDE</span>
+            </div>
+
+            <div class="meta-row">
+              <span>degree</span>
+              <span>B.Tech CSE</span>
+            </div>
+
+            <div class="meta-row">
+              <span>focus</span>
+              <span>Web & Software Development</span>
+            </div>
+
+            <div class="meta-row">
+              <span>status</span>
+              <span>Open to opportunities</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="about-text glass reveal">
+
+          <p>
+            I'm <strong>Gautam Kumar</strong>, a Computer Science
+            Engineering student with a genuine curiosity for how
+            software is built.
+          </p>
+
+          <p>
+            My interests include
+            <strong>programming, software development,
+            web development and cloud computing</strong>.
+            I enjoy breaking complex problems into smaller,
+            solvable pieces.
+          </p>
+
+          <p>
+            I continuously practice Data Structures and Algorithms,
+            build projects and explore modern technologies with
+            the goal of becoming a strong software developer.
+          </p>
+
+
+          <div class="pillars">
+
+            <div class="pillar">
+              <h4>Problem Solver</h4>
+              <p>
+                Breaking complex problems into clear and
+                testable solutions.
+              </p>
+            </div>
+
+            <div class="pillar">
+              <h4>Developer</h4>
+              <p>
+                Building practical websites and software
+                applications.
+              </p>
+            </div>
+
+            <div class="pillar">
+              <h4>Fast Learner</h4>
+              <p>
+                Learning new languages, frameworks and tools
+                through projects.
+              </p>
+            </div>
+
+            <div class="pillar">
+              <h4>Team Player</h4>
+              <p>
+                Interested in collaboration, communication
+                and open-source development.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section">
+
+    <div class="wrap">
+
+      <div class="path reveal">skills</div>
+
+      <h2 class="section-title reveal">
+        Technical Skills
+      </h2>
+
+      <p class="section-lede reveal">
+        Languages, technologies and tools I use to learn and build.
+      </p>
+
+
+      <div class="skills-grid">
+
+        <div class="skill-card glass reveal">
+          <h4>// Programming Languages</h4>
+
+          <div class="tags">
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+
+
+        <div class="skill-card glass reveal">
+          <h4>// Web Technologies</h4>
+
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React.js</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Express.js</span>
+          </div>
+        </div>
+
+
+        <div class="skill-card glass reveal">
+          <h4>// Databases</h4>
+
+          <div class="tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">SQLite</span>
+          </div>
+        </div>
+
+
+        <div class="skill-card glass reveal">
+          <h4>// Tools</h4>
+
+          <div class="tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+
+
+        <div class="skill-card glass reveal">
+          <h4>// Computer Science</h4>
+
+          <div class="tags">
+            <span class="tag">DSA</span>
+            <span class="tag">OOP</span>
+            <span class="tag">DBMS</span>
+            <span class="tag">Operating Systems</span>
+            <span class="tag">Computer Networks</span>
+          </div>
+        </div>
+
+
+        <div class="skill-card glass reveal">
+          <h4>// Currently Learning</h4>
+
+          <div class="tags">
+            <span class="tag">Cloud Computing</span>
+            <span class="tag">AI</span>
+            <span class="tag">Three.js</span>
+            <span class="tag">System Design</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section id="projects">
+
+    <div class="wrap">
+
+      <div class="path reveal">projects</div>
+
+      <h2 class="section-title reveal">
+        Things I've Built
+      </h2>
+
+      <p class="section-lede reveal">
+        A collection of projects, experiments and learning work.
+      </p>
+
+
+      <div class="projects-grid">
+
+
+        <article class="project-card glass reveal">
+
+          <div class="project-icon">SM</div>
+
+          <h3>Student Management System</h3>
+
+          <p>
+            A CRUD-based system for managing student records,
+            attendance and academic information.
+          </p>
+
+          <div class="project-tags">
+            <span>Java</span>
+            <span>MySQL</span>
+            <span>OOP</span>
+          </div>
+
+          <div class="project-actions">
+            <a
+              href="https://github.com/gautamkumar07-lab?tab=overview&from=2026-09-01&to=2026-09-05"
+              target="_blank"
+              class="project-btn"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="#"
+              class="project-btn"
+            >
+              Live Demo
+            </a>
+          </div>
+
+        </article>
+
+
+        <article class="project-card glass reveal">
+
+          <div class="project-icon">PW</div>
+
+          <h3>Personal Portfolio</h3>
+
+          <p>
+            A futuristic 3D portfolio website designed to showcase
+            skills, projects, education and achievements.
+          </p>
+
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Three.js</span>
+          </div>
+
+          <div class="project-actions">
+            <a
+              href="https://github.com/gautamkumar07-lab?tab=overview&from=2026-09-01&to=2026-09-05"
+              target="_blank"
+              class="project-btn"
+            >
+              GitHub
+            </a>
+
+            <a href="#home" class="project-btn">
+              Live Demo
+            </a>
+          </div>
+
+        </article>
+
+
+        <article class="project-card glass reveal">
+
+          <div class="project-icon">QR</div>
+
+          <h3>QR Code Generator</h3>
+
+          <p>
+            A simple web application that generates QR codes from
+            text, links and useful information.
+          </p>
+
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://github.com/" target="_blank" class="project-btn">
+              GitHub
+            </a>
+
+            <a href="#" class="project-btn">
+              Live Demo
+            </a>
+          </div>
+
+        </article>
+
+
+        <article class="project-card glass reveal">
+
+          <div class="project-icon">WA</div>
+
+          <h3>Weather Application</h3>
+
+          <p>
+            Weather application concept using APIs to display
+            current weather information for different cities.
+          </p>
+
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>REST API</span>
+            <span>CSS</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://github.com/gautamkumar07-lab?tab=overview&from=2026-09-01&to=2026-09-05" target="_blank" class="project-btn">
+              GitHub
+            </a>
+
+            <a href="#" class="project-btn">
+              Live Demo
+            </a>
+          </div>
+
+        </article>
+
+
+        <article class="project-card glass reveal">
+
+          <div class="project-icon">EC</div>
+
+          <h3>E-Commerce Website</h3>
+
+          <p>
+            Modern e-commerce interface with products, cart,
+            authentication and responsive UI.
+          </p>
+
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://github.com/" target="_blank" class="project-btn">
+              GitHub
+            </a>
+
+            <a href="#" class="project-btn">
+              Live Demo
+            </a>
+          </div>
+
+        </article>
+
+
+        <article class="project-card glass reveal">
+
+          <div class="project-icon">DS</div>
+
+          <h3>DSA Practice</h3>
+
+          <p>
+            Data Structures and Algorithms implementations and
+            problem-solving practice using C++ and Python.
+          </p>
+
+          <div class="project-tags">
+            <span>C++</span>
+            <span>Python</span>
+            <span>Algorithms</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://github.com/" target="_blank" class="project-btn">
+              GitHub
+            </a>
+
+            <a href="#" class="project-btn">
+              View
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- EDUCATION -->
+  <section id="education" class="skills-section">
+
+    <div class="wrap">
+
+      <div class="path reveal">education</div>
+
+      <h2 class="section-title reveal">
+        Education
+      </h2>
+
+      <p class="section-lede reveal">
+        Academic background and relevant coursework.
+      </p>
+
+
+      <div class="education-card glass reveal">
+
+        <div class="edu-icon">
+          B.TECH
+        </div>
+
+        <div>
+
+          <h3>
+            B.Tech — Computer Science & Engineering
+          </h3>
+
+          <p class="edu-sub">
+            Computer Science Engineering · Currently Pursuing
+          </p>
+
+          <div class="coursework">
+            <span>Data Structures</span>
+            <span>Algorithms</span>
+            <span>OOP</span>
+            <span>DBMS</span>
+            <span>Operating Systems</span>
+            <span>Computer Networks</span>
+            <span>Cloud Computing</span>
+            <span>Web Development</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+
+    <div class="wrap">
+
+      <div class="path reveal">achievements</div>
+
+      <h2 class="section-title reveal">
+        Achievements & Certifications
+      </h2>
+
+      <p class="section-lede reveal">
+        Add your real certifications, hackathons and achievements here.
+      </p>
+
+
+      <div class="ach-grid">
+
+        <div class="ach-card glass reveal">
+          <div class="ach-icon">★</div>
+
+          <div>
+            <h4>Programming & DSA</h4>
+            <p>Continuous problem solving and algorithm practice.</p>
+          </div>
+        </div>
+
+
+        <div class="ach-card glass reveal">
+          <div class="ach-icon">◆</div>
+
+          <div>
+            <h4>Web Development</h4>
+            <p>Building responsive and interactive web applications.</p>
+          </div>
+        </div>
+
+
+        <div class="ach-card glass reveal">
+          <div class="ach-icon">✦</div>
+
+          <div>
+            <h4>Project Development</h4>
+            <p>Developing practical projects using modern technologies.</p>
+          </div>
+        </div>
+
+
+        <div class="ach-card glass reveal">
+          <div class="ach-icon">✓</div>
+
+          <div>
+            <h4>Continuous Learning</h4>
+            <p>Exploring AI, cloud computing and modern development tools.</p>
+          </div>
+        </div>
+
+
+        <div class="ach-card glass reveal">
+          <div class="ach-icon">⌘</div>
+
+          <div>
+            <h4>Open Source</h4>
+            <p>Interested in contributing to developer communities.</p>
+          </div>
+        </div>
+
+
+        <div class="ach-card glass reveal">
+          <div class="ach-icon">⚡</div>
+
+          <div>
+            <h4>Future Goal</h4>
+            <p>Growing into a professional software engineer.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="skills-section">
+
+    <div class="wrap">
+
+      <div class="path reveal">contact</div>
+
+      <h2 class="section-title reveal">
+        Let's Connect
+      </h2>
+
+      <p class="section-lede reveal">
+        Have an opportunity, project or collaboration idea?
+        Let's talk.
+      </p>
+
+
+      <div class="contact-grid">
+
+        <form
+          class="contact-form glass reveal"
+          id="contactForm"
+        >
+
+          <div class="form-group">
+            <label for="name">Name</label>
+
+            <input
+              type="text"
+              id="name"
+              placeholder="Your name"
+              required
+            >
+          </div>
+
+
+          <div class="form-group">
+            <label for="email">Email</label>
+
+            <input
+              type="email"
+              id="email"
+              placeholder="your@email.com"
+              required
+            >
+          </div>
+
+
+          <div class="form-group">
+            <label for="message">Message</label>
+
+            <textarea
+              id="message"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+          </div>
+
+
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="width:100%;border:0;cursor:pointer;"
+          >
+            Send Message →
+          </button>
+
+          <p
+            id="formNote"
+            style="
+              margin-top:12px;
+              color:var(--faint);
+              font-size:.72rem;
+            "
+          >
+            Clicking send will open your email application.
+          </p>
+
+        </form>
+
+
+        <div class="contact-links reveal">
+
+          <!-- EMAIL -->
+          <a
+            href="mailto:gautamkumar543796@gmail.com"
+            class="contact-link glass"
+          >
+
+            <span class="contact-icon">✉</span>
+
+            <span>
+              <span class="contact-label">EMAIL</span>
+              <span class="contact-value">
+                gautamkumar543796@gmail.com
+              </span>
+            </span>
+
+          </a>
+
+
+          <!-- GITHUB -->
+          <a
+            href="https://github.com/"
+            target="_blank"
+            class="contact-link glass"
+          >
+
+            <span class="contact-icon">◉</span>
+
+            <span>
+              <span class="contact-label">GITHUB</span>
+              <span class="contact-value">
+                github.com/
+              </span>
+            </span>
+
+          </a>
+
+
+          <!-- LINKEDIN -->
+          <a
+            href="https://www.linkedin.com/in/gautam-yadav-66756a388/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQL3u%2F4DDQNG15B2QCrDawg%3D%3D"
+            target="_blank"
+            class="contact-link glass"
+          >
+
+            <span class="contact-icon">in</span>
+
+            <span>
+              <span class="contact-label">LINKEDIN</span>
+              <span class="contact-value">
+                linkedin.com/
+              </span>
+            </span>
+
+          </a>
+
+
+          <div class="contact-link glass">
+
+            <span class="contact-icon">⌘</span>
+
+            <span>
+              <span class="contact-label">STATUS</span>
+              <span class="contact-value">
+                Open to internships & opportunities
+              </span>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="wrap">
+
+      <div class="footer-inner">
+
+        <div class="brand">
+          <span class="brand-dot"></span>
+          Gautam
+          <span class="mono">.dev</span>
+        </div>
+
+        <div class="footer-social">
+
+          <a
+            class="social"
+            href="https://github.com/"
+            target="_blank"
+          >
+            GH
+          </a>
+
+          <a
+            class="social"
+            href="https://linkedin.com/"
+            target="_blank"
+          >
+            in
+          </a>
+
+          <a
+            class="social"
+            href="mailto:gautamkumar543796@gmail.com"
+          >
+            @
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        © <span id="year"></span>
+        Gautam Kumar — Built with HTML, CSS & JavaScript.
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- BACK TO TOP -->
+  <button class="top" id="topBtn">
+    ↑
+  </button>
+
+
+  <script>
+
+    /* ==========================================
+       3D PARTICLE BACKGROUND
+    ========================================== */
+
+    const canvas = document.getElementById("scene");
+    const ctx = canvas.getContext("2d");
+
+    let particles = [];
+    let mouse = {
+      x: window.innerWidth / 2,
+      y: window.innerHeight / 2
+    };
+
+    function resizeCanvas() {
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      createParticles();
+    }
+
+    function createParticles() {
+
+      particles = [];
+
+      const amount =
+        window.innerWidth < 700 ? 80 : 150;
+
+      for (let i = 0; i < amount; i++) {
+
+        particles.push({
+
+          x: Math.random() * canvas.width,
+
+          y: Math.random() * canvas.height,
+
+          z: Math.random() * 1000,
+
+          size: Math.random() * 1.7 + .3,
+
+          speed: Math.random() * .6 + .15
+
+        });
+
+      }
+    }
+
+    function drawParticles() {
+
+      ctx.clearRect(
+        0,
+        0,
+        canvas.width,
+        canvas.height
+      );
+
+      particles.forEach(p => {
+
+        p.z -= p.speed;
+
+        if (p.z <= 1) {
+
+          p.z = 1000;
+
+          p.x = Math.random() * canvas.width;
+          p.y = Math.random() * canvas.height;
+        }
+
+        const scale = 1000 / p.z;
+
+        const x =
+          (p.x - canvas.width / 2)
+          * scale
+          + canvas.width / 2;
+
+        const y =
+          (p.y - canvas.height / 2)
+          * scale
+          + canvas.height / 2;
+
+        if (
+          x < 0 ||
+          x > canvas.width ||
+          y < 0 ||
+          y > canvas.height
+        ) return;
+
+        const alpha =
+          Math.min(1, scale * .25);
+
+        ctx.beginPath();
+
+        ctx.arc(
+          x,
+          y,
+          p.size * scale,
+          0,
+          Math.PI * 2
+        );
+
+        ctx.fillStyle =
+          `rgba(94,234,212,${alpha})`;
+
+        ctx.fill();
+
+      });
+
+      requestAnimationFrame(drawParticles);
+    }
+
+    window.addEventListener(
+      "resize",
+      resizeCanvas
+    );
+
+    resizeCanvas();
+    drawParticles();
+
+
+    /* ==========================================
+       MOUSE GLOW
+    ========================================== */
+
+    const glow =
+      document.getElementById("cursorGlow");
+
+    window.addEventListener("mousemove", e => {
+
+      mouse.x = e.clientX;
+      mouse.y = e.clientY;
+
+      glow.style.left =
+        e.clientX + "px";
+
+      glow.style.top =
+        e.clientY + "px";
+
+    });
+
+
+    /* ==========================================
+       3D PROFILE CARD
+    ========================================== */
+
+    const profileCard =
+      document.getElementById("profileCard");
+
+    profileCard.addEventListener(
+      "mousemove",
+      e => {
+
+        const rect =
+          profileCard.getBoundingClientRect();
+
+        const x =
+          e.clientX - rect.left;
+
+        const y =
+          e.clientY - rect.top;
+
+        const rotateY =
+          ((x / rect.width) - .5) * 18;
+
+        const rotateX =
+          ((y / rect.height) - .5) * -18;
+
+        profileCard.style.transform =
+          `
+          rotateX(${rotateX}deg)
+          rotateY(${rotateY}deg)
+          translateZ(10px)
+          scale(1.02)
+          `;
+
+      }
+    );
+
+    profileCard.addEventListener(
+      "mouseleave",
+      () => {
+
+        profileCard.style.transform =
+          "rotateX(0) rotateY(0) scale(1)";
+
+      }
+    );
+
+
+    /* ==========================================
+       MOBILE MENU
+    ========================================== */
+
+    const menuBtn =
+      document.getElementById("menuBtn");
+
+    const navLinks =
+      document.getElementById("navLinks");
+
+    menuBtn.addEventListener(
+      "click",
+      () => {
+
+        navLinks.classList.toggle("open");
+
+      }
+    );
+
+    document
+      .querySelectorAll(".nav-links a")
+      .forEach(link => {
+
+        link.addEventListener(
+          "click",
+          () => {
+
+            navLinks.classList.remove("open");
+
+          }
+        );
+
+      });
+
+
+    /* ==========================================
+       SCROLL REVEAL
+    ========================================== */
+
+    const revealElements =
+      document.querySelectorAll(".reveal");
+
+    const observer =
+      new IntersectionObserver(
+        entries => {
+
+          entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+              entry.target.classList.add("show");
+
+              observer.unobserve(
+                entry.target
+              );
+
+            }
+
+          });
+
+        },
+        {
+          threshold: .12
+        }
+      );
+
+    revealElements.forEach(
+      element => observer.observe(element)
+    );
+
+
+    /* ==========================================
+       CONTACT FORM
+    ========================================== */
+
+    document
+      .getElementById("contactForm")
+      .addEventListener(
+        "submit",
+        function(e) {
+
+          e.preventDefault();
+
+          const name =
+            document.getElementById("name").value;
+
+          const email =
+            document.getElementById("email").value;
+
+          const message =
+            document.getElementById("message").value;
+
+          const subject =
+            encodeURIComponent(
+              "Portfolio Contact from " + name
+            );
+
+          const body =
+            encodeURIComponent(
+              `Name: ${name}\n\nEmail: ${email}\n\nMessage:\n${message}`
+            );
+
+          window.location.href =
+            `mailto:gautamkumar543796@gmail.com?subject=${subject}&body=${body}`;
+
+        }
+      );
+
+
+    /* ==========================================
+       BACK TO TOP
+    ========================================== */
+
+    const topBtn =
+      document.getElementById("topBtn");
+
+    window.addEventListener(
+      "scroll",
+      () => {
+
+        if (window.scrollY > 500) {
+
+          topBtn.classList.add("show");
+
+        } else {
+
+          topBtn.classList.remove("show");
+
+        }
+
+      }
+    );
+
+    topBtn.addEventListener(
+      "click",
+      () => {
+
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+
+      }
+    );
+
+
+    /* ==========================================
+       CURRENT YEAR
+    ========================================== */
+
+    document.getElementById("year")
+      .textContent =
+      new Date().getFullYear();
+
+  </script>
+
+</body>
+</html>
